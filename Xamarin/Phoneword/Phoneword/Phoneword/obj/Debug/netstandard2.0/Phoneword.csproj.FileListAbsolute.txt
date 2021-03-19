@@ -1,0 +1,13 @@
+C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\Phoneword\Phoneword\Phoneword\bin\Debug\netstandard2.0\Phoneword.deps.json
+C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\Phoneword\Phoneword\Phoneword\bin\Debug\netstandard2.0\Phoneword.dll
+C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\Phoneword\Phoneword\Phoneword\bin\Debug\netstandard2.0\ref\Phoneword.dll
+C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\Phoneword\Phoneword\Phoneword\bin\Debug\netstandard2.0\Phoneword.pdb
+C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\Phoneword\Phoneword\Phoneword\obj\Debug\netstandard2.0\Phoneword.csprojAssemblyReference.cache
+C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\Phoneword\Phoneword\Phoneword\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\Phoneword\Phoneword\Phoneword\obj\Debug\netstandard2.0\Phoneword.AssemblyInfoInputs.cache
+C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\Phoneword\Phoneword\Phoneword\obj\Debug\netstandard2.0\Phoneword.AssemblyInfo.cs
+C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\Phoneword\Phoneword\Phoneword\obj\Debug\netstandard2.0\Phoneword.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\Phoneword\Phoneword\Phoneword\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\Phoneword\Phoneword\Phoneword\obj\Debug\netstandard2.0\Phoneword.dll
+C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\Phoneword\Phoneword\Phoneword\obj\Debug\netstandard2.0\ref\Phoneword.dll
+C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\Phoneword\Phoneword\Phoneword\obj\Debug\netstandard2.0\Phoneword.pdb
