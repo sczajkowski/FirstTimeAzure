@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="xaml_api_db.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Frame>
+            <Label Text="People App" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+        </Frame>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="60"/>
+            </Grid.RowDefinitions>
+            <Image x:Name="imgPhoto" Grid.Row="0"/>
+            <StackLayout Grid.Row="1">
+                <Button x:Name="btnPhoto" Text="Take a picture"/>
+                <Entry x:Name="tbxFirstName" Placeholder="FirstName"/>
+                <Entry x:Name="tbxLastName" Placeholder="LastName"/>
+                <Entry x:Name="tbxPhoneNumber" Placeholder="Phone Number" Keyboard="Telephone"/>
+            </StackLayout>
+            <Button Text="Save data" Grid.Row="2"/>
+        </Grid>
+    </StackLayout>
+
+</ContentPage>

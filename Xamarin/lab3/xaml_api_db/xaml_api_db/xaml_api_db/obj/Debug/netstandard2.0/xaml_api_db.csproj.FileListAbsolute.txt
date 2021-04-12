@@ -1,0 +1,14 @@
+C:\lab3\xaml_api_db\xaml_api_db\xaml_api_db\bin\Debug\netstandard2.0\xaml_api_db.deps.json
+C:\lab3\xaml_api_db\xaml_api_db\xaml_api_db\bin\Debug\netstandard2.0\xaml_api_db.dll
+C:\lab3\xaml_api_db\xaml_api_db\xaml_api_db\bin\Debug\netstandard2.0\ref\xaml_api_db.dll
+C:\lab3\xaml_api_db\xaml_api_db\xaml_api_db\bin\Debug\netstandard2.0\xaml_api_db.pdb
+C:\lab3\xaml_api_db\xaml_api_db\xaml_api_db\obj\Debug\netstandard2.0\xaml_api_db.csprojAssemblyReference.cache
+C:\lab3\xaml_api_db\xaml_api_db\xaml_api_db\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\lab3\xaml_api_db\xaml_api_db\xaml_api_db\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\lab3\xaml_api_db\xaml_api_db\xaml_api_db\obj\Debug\netstandard2.0\xaml_api_db.AssemblyInfoInputs.cache
+C:\lab3\xaml_api_db\xaml_api_db\xaml_api_db\obj\Debug\netstandard2.0\xaml_api_db.AssemblyInfo.cs
+C:\lab3\xaml_api_db\xaml_api_db\xaml_api_db\obj\Debug\netstandard2.0\xaml_api_db.dll
+C:\lab3\xaml_api_db\xaml_api_db\xaml_api_db\obj\Debug\netstandard2.0\ref\xaml_api_db.dll
+C:\lab3\xaml_api_db\xaml_api_db\xaml_api_db\obj\Debug\netstandard2.0\xaml_api_db.pdb
+C:\lab3\xaml_api_db\xaml_api_db\xaml_api_db\obj\Debug\netstandard2.0\xaml_api_db.csproj.CoreCompileInputs.cache
+C:\lab3\xaml_api_db\xaml_api_db\xaml_api_db\obj\Debug\netstandard2.0\XamlC.stamp

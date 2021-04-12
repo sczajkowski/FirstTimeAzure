@@ -1,0 +1,5 @@
+C:\lab3\xaml_api_db\PeopleStoreApp.DataContracts\bin\Debug\netstandard2.0\PeopleStoreApp.DataContracts.deps.json
+C:\lab3\xaml_api_db\PeopleStoreApp.DataContracts\bin\Debug\netstandard2.0\PeopleStoreApp.DataContracts.dll
+C:\lab3\xaml_api_db\PeopleStoreApp.DataContracts\obj\Debug\netstandard2.0\PeopleStoreApp.DataContracts.csprojAssemblyReference.cache
+C:\lab3\xaml_api_db\PeopleStoreApp.DataContracts\obj\Debug\netstandard2.0\PeopleStoreApp.DataContracts.AssemblyInfoInputs.cache
+C:\lab3\xaml_api_db\PeopleStoreApp.DataContracts\obj\Debug\netstandard2.0\PeopleStoreApp.DataContracts.AssemblyInfo.cs
