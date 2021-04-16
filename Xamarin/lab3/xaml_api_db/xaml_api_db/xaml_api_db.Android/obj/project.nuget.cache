@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "dwP7JIQGqREISzyJJjDzLsEhs0Xn1PurRFOV0BSYsT7qBCo92jOCbaghl7qG75hqR+RzX+XUnmuuy4SQX510jw==",
+  "dgSpecHash": "A494e/laG2jkZMP5fCebTa5snxeajXOx4FsiYBCjzAksNfMTc90aqglcWh1SI922UwbQm4mwM9t9AKlKAMkVMQ==",
   "success": true,
-  "projectFilePath": "C:\\lab3\\xaml_api_db\\xaml_api_db\\xaml_api_db.Android\\xaml_api_db.Android.csproj",
+  "projectFilePath": "C:\\Users\\Sebastian\\source\\repos\\FirstTimeAzure\\Xamarin\\lab3\\xaml_api_db\\xaml_api_db\\xaml_api_db.Android\\xaml_api_db.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Sebastian\\.nuget\\packages\\newtonsoft.json\\11.0.1\\newtonsoft.json.11.0.1.nupkg.sha512",
     "C:\\Users\\Sebastian\\.nuget\\packages\\plugin.currentactivity\\1.0.1\\plugin.currentactivity.1.0.1.nupkg.sha512",
     "C:\\Users\\Sebastian\\.nuget\\packages\\plugin.permissions\\2.0.1\\plugin.permissions.2.0.1.nupkg.sha512",
+    "C:\\Users\\Sebastian\\.nuget\\packages\\restease\\1.5.4\\restease.1.5.4.nupkg.sha512",
     "C:\\Users\\Sebastian\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Sebastian\\.nuget\\packages\\xam.plugin.media\\3.0.1\\xam.plugin.media.3.0.1.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",

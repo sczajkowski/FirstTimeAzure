@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PeopleStoreApp.DataContracts;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
@@ -9,16 +10,67 @@ using Xamarin.Forms;
 
 namespace xaml_api_db
 {
-    // Learn more about making custom code visible in the Xamarin.Forms previewer
-    // by visiting https://aka.ms/xamarinforms-previewer
-    [DesignTimeVisible(false)]
     public partial class MainPage : ContentPage
     {
-        public MainPage()
+        private readonly IPeopleClient client;
+        private Person person = new Person();
+        public MainPage(IPeopleClient client)
         {
             InitializeComponent();
 
+            this.client = client;
             btnPhoto.Clicked += btnPhoto_Clicked;
+            btnSave.Clicked += BtnSave_Clicked;
+
+            tbxFirstName.TextChanged += TbxFirstName_TextChanged;
+            tbxLastName.TextChanged += TbxLastName_TextChanged;
+            tbxPhoneNumber.TextChanged += TbxPhoneNumber_TextChanged;
+
+            
+        }
+
+        private async void BtnSave_Clicked(object sender, EventArgs e)
+        {
+            if (!Validate())
+            {
+                await DisplayAlert("Validation Error", "First name, last name, phone number and picture are required.", "Ok");
+                return;
+            }
+
+            try
+            {
+                await client.AddPersonAsync(person);
+                await DisplayAlert("Success", "Data has been saved.", "Ok");
+                Clear();
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Error", ex.Message, "Ok");
+            }
+        }
+
+        private void Clear()
+        {
+            tbxFirstName.Text = string.Empty;
+            tbxLastName.Text = string.Empty;
+            tbxPhoneNumber.Text = string.Empty;
+            imgPhoto.Source = null;
+            person = new Person();
+        }
+
+        private void TbxPhoneNumber_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            person.PhoneNumber = e.NewTextValue;
+        }
+
+        private void TbxLastName_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            person.LastName = e.NewTextValue;
+        }
+
+        private void TbxFirstName_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            person.FirstName = e.NewTextValue;
         }
 
         private async void btnPhoto_Clicked(object sender, EventArgs e)
@@ -39,7 +91,15 @@ namespace xaml_api_db
             }
 
             string base64 = Convert.ToBase64String(bytes);
-            //person.PictureBase64 = base64;
+            person.PictureBase64 = base64;
+        }
+        private bool Validate()
+        {
+            return !(string.IsNullOrWhiteSpace(person.FirstName) ||
+                    string.IsNullOrWhiteSpace(person.LastName) ||
+                    string.IsNullOrWhiteSpace(person.PhoneNumber) ||
+                    string.IsNullOrWhiteSpace(person.PictureBase64)
+                );
         }
 
 

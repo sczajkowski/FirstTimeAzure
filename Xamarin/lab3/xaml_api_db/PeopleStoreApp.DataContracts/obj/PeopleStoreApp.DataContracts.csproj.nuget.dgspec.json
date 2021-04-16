@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\lab3\\xaml_api_db\\PeopleStoreApp.DataContracts\\PeopleStoreApp.DataContracts.csproj": {}
+    "C:\\Users\\Sebastian\\source\\repos\\FirstTimeAzure\\Xamarin\\lab3\\xaml_api_db\\PeopleStoreApp.DataContracts\\PeopleStoreApp.DataContracts.csproj": {}
   },
   "projects": {
-    "C:\\lab3\\xaml_api_db\\PeopleStoreApp.DataContracts\\PeopleStoreApp.DataContracts.csproj": {
+    "C:\\Users\\Sebastian\\source\\repos\\FirstTimeAzure\\Xamarin\\lab3\\xaml_api_db\\PeopleStoreApp.DataContracts\\PeopleStoreApp.DataContracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\lab3\\xaml_api_db\\PeopleStoreApp.DataContracts\\PeopleStoreApp.DataContracts.csproj",
+        "projectUniqueName": "C:\\Users\\Sebastian\\source\\repos\\FirstTimeAzure\\Xamarin\\lab3\\xaml_api_db\\PeopleStoreApp.DataContracts\\PeopleStoreApp.DataContracts.csproj",
         "projectName": "PeopleStoreApp.DataContracts",
-        "projectPath": "C:\\lab3\\xaml_api_db\\PeopleStoreApp.DataContracts\\PeopleStoreApp.DataContracts.csproj",
+        "projectPath": "C:\\Users\\Sebastian\\source\\repos\\FirstTimeAzure\\Xamarin\\lab3\\xaml_api_db\\PeopleStoreApp.DataContracts\\PeopleStoreApp.DataContracts.csproj",
         "packagesPath": "C:\\Users\\Sebastian\\.nuget\\packages\\",
-        "outputPath": "C:\\lab3\\xaml_api_db\\PeopleStoreApp.DataContracts\\obj\\",
+        "outputPath": "C:\\Users\\Sebastian\\source\\repos\\FirstTimeAzure\\Xamarin\\lab3\\xaml_api_db\\PeopleStoreApp.DataContracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

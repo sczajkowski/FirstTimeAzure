@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pVfzWSzUFP8q5EZEvdI+tGqIjZF1flinvmLwt3rcVQ0YJSOD+YmOMbxYG39PGwUEbEzxuY7+IhYLTofKiHfekw==",
+  "dgSpecHash": "OKQ/8WOAFVhnbSEjQPVwJdie3lUiNO0da5dKNOpwJ+LkgLAAFUFdExVdPdXCHX4T9nrOzh6aNw4IE28fiD02Dg==",
   "success": true,
-  "projectFilePath": "C:\\lab3\\xaml_api_db\\PeopleStoreApp.Web\\PeopleStoreApp.Web.csproj",
+  "projectFilePath": "C:\\Users\\Sebastian\\source\\repos\\FirstTimeAzure\\Xamarin\\lab3\\xaml_api_db\\PeopleStoreApp.Web\\PeopleStoreApp.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sebastian\\.nuget\\packages\\newtonsoft.json\\11.0.1\\newtonsoft.json.11.0.1.nupkg.sha512",
     "C:\\Users\\Sebastian\\.nuget\\packages\\restease\\1.5.4\\restease.1.5.4.nupkg.sha512",

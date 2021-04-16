@@ -3,3 +3,12 @@ C:\lab3\xaml_api_db\PeopleStoreApp.DataContracts\bin\Debug\netstandard2.0\People
 C:\lab3\xaml_api_db\PeopleStoreApp.DataContracts\obj\Debug\netstandard2.0\PeopleStoreApp.DataContracts.csprojAssemblyReference.cache
 C:\lab3\xaml_api_db\PeopleStoreApp.DataContracts\obj\Debug\netstandard2.0\PeopleStoreApp.DataContracts.AssemblyInfoInputs.cache
 C:\lab3\xaml_api_db\PeopleStoreApp.DataContracts\obj\Debug\netstandard2.0\PeopleStoreApp.DataContracts.AssemblyInfo.cs
+C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\PeopleStoreApp.DataContracts\bin\Debug\netstandard2.0\PeopleStoreApp.DataContracts.deps.json
+C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\PeopleStoreApp.DataContracts\bin\Debug\netstandard2.0\PeopleStoreApp.DataContracts.dll
+C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\PeopleStoreApp.DataContracts\bin\Debug\netstandard2.0\PeopleStoreApp.DataContracts.pdb
+C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\PeopleStoreApp.DataContracts\obj\Debug\netstandard2.0\PeopleStoreApp.DataContracts.csprojAssemblyReference.cache
+C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\PeopleStoreApp.DataContracts\obj\Debug\netstandard2.0\PeopleStoreApp.DataContracts.AssemblyInfoInputs.cache
+C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\PeopleStoreApp.DataContracts\obj\Debug\netstandard2.0\PeopleStoreApp.DataContracts.AssemblyInfo.cs
+C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\PeopleStoreApp.DataContracts\obj\Debug\netstandard2.0\PeopleStoreApp.DataContracts.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\PeopleStoreApp.DataContracts\obj\Debug\netstandard2.0\PeopleStoreApp.DataContracts.dll
+C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\PeopleStoreApp.DataContracts\obj\Debug\netstandard2.0\PeopleStoreApp.DataContracts.pdb

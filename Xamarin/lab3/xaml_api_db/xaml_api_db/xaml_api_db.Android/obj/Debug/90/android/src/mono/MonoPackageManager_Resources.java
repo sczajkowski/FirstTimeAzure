@@ -4,11 +4,13 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "xaml_api_db.Android.dll" comes first in this list. */
 		"xaml_api_db.Android.dll",
 		"FormsViewGroup.dll",
+		"Newtonsoft.Json.dll",
 		"Plugin.CurrentActivity.dll",
 		"Plugin.Media.Abstractions.dll",
 		"Plugin.Media.dll",
 		"Plugin.Permissions.Abstractions.dll",
 		"Plugin.Permissions.dll",
+		"RestEase.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
@@ -52,6 +54,7 @@ public class MonoPackageManager_Resources {
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
 		"xaml_api_db.dll",
+		"PeopleStoreApp.DataContracts.dll",
 	};
 	public static String[] Dependencies = new String[]{
 	};

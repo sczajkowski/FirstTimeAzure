@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NV560iNkBD+R/hoQzo0p2vZcaXf/lSf0GUKfbc8aIno9u2xpMdxUgUO/WZH6VDx/wjdRpgU4/OgsJvyT6pyz6w==",
+  "dgSpecHash": "yLoL7pvc7+s+xB6DzJPeN01U2u/uJrh8ozfgN4AxfDDxuBEt32OSxHQ0nFip77VBVfVWATk5+UgpzxTYf8KM0g==",
   "success": true,
-  "projectFilePath": "C:\\lab3\\xaml_api_db\\PeopleStoreApp.DataContracts\\PeopleStoreApp.DataContracts.csproj",
+  "projectFilePath": "C:\\Users\\Sebastian\\source\\repos\\FirstTimeAzure\\Xamarin\\lab3\\xaml_api_db\\PeopleStoreApp.DataContracts\\PeopleStoreApp.DataContracts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sebastian\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Sebastian\\.nuget\\packages\\microsoft.netcore.targets\\1.0.1\\microsoft.netcore.targets.1.0.1.nupkg.sha512",

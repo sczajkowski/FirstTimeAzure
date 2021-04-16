@@ -27,7 +27,7 @@
                 <Entry x:Name="tbxLastName" Placeholder="LastName"/>
                 <Entry x:Name="tbxPhoneNumber" Placeholder="Phone Number" Keyboard="Telephone"/>
             </StackLayout>
-            <Button Text="Save data" Grid.Row="2"/>
+            <Button x:Name="btnSave" Text="Save data" Grid.Row="2"/>
         </Grid>
     </StackLayout>
 
