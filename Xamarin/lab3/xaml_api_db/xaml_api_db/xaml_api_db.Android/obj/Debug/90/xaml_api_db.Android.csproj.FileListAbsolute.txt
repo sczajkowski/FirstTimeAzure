@@ -490,8 +490,6 @@ C:\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\android\assets\
 C:\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\android\assets\System.Runtime.Extensions.dll
 C:\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\android\assets\System.Threading.Tasks.dll
 C:\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\android\src\crc646957603ea1820544\MediaPickerActivity.java
-C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\LocalizedDigitsKeyListener.java
-C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\android\typemaps.armeabi-v7a.o
 C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\bin\Debug\xaml_api_db.Android.dll
 C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\bin\Debug\xaml_api_db.Android.pdb
 C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\bin\Debug\com.companyname.xaml_api_db.apk
@@ -499,7 +497,9 @@ C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api
 C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\bin\Debug\com.companyname.xaml_api_db-Signed.aab
 C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\bin\Debug\com.companyname.xaml_api_db-Signed.apk
 C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\bin\Debug\xaml_api_db.dll
+C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\bin\Debug\PeopleStoreApp.DataContracts.dll
 C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\bin\Debug\xaml_api_db.pdb
+C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\bin\Debug\PeopleStoreApp.DataContracts.pdb
 C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
 C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\build.props
 C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\adb.props
@@ -570,6 +570,9 @@ C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api
 C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\android\assets\mscorlib.dll
 C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\android\assets\mscorlib.pdb
 C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\android\assets\netstandard.dll
+C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\android\assets\Newtonsoft.Json.dll
+C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\android\assets\PeopleStoreApp.DataContracts.dll
+C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\android\assets\PeopleStoreApp.DataContracts.pdb
 C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\android\assets\Plugin.CurrentActivity.dll
 C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\android\assets\Plugin.Media.Abstractions.dll
 C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\android\assets\Plugin.Media.Abstractions.pdb
@@ -579,6 +582,7 @@ C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api
 C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\android\assets\Plugin.Permissions.Abstractions.pdb
 C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\android\assets\Plugin.Permissions.dll
 C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\android\assets\Plugin.Permissions.dll.mdb
+C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\android\assets\RestEase.dll
 C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\android\assets\System.Collections.dll
 C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\android\assets\System.ComponentModel.Composition.dll
 C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\android\assets\System.ComponentModel.Composition.pdb
@@ -786,6 +790,7 @@ C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api
 C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\ListViewRenderer_Container.java
 C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\ListViewRenderer_ListViewScrollDetector.java
 C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\ListViewRenderer_SwipeRefreshLayoutWithFixedNestedScrolling.java
+C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\LocalizedDigitsKeyListener.java
 C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\MasterDetailContainer.java
 C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\MasterDetailRenderer.java
 C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\MediaElementRenderer.java
@@ -963,6 +968,7 @@ C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api
 C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\android\bin\packaged_resources
 C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\android\src\com\companyname\xaml_api_db\R.java
 C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\android\typemaps.arm64-v8a.o
+C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\android\typemaps.armeabi-v7a.o
 C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\android\typemaps.x86.o
 C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\android\typemaps.x86_64.o
 C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\android\environment.arm64-v8a.o
@@ -982,9 +988,3 @@ C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api
 C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
-C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\bin\Debug\PeopleStoreApp.DataContracts.dll
-C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\bin\Debug\PeopleStoreApp.DataContracts.pdb
-C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\android\assets\Newtonsoft.Json.dll
-C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\android\assets\PeopleStoreApp.DataContracts.dll
-C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\android\assets\PeopleStoreApp.DataContracts.pdb
-C:\Users\Sebastian\source\repos\FirstTimeAzure\Xamarin\lab3\xaml_api_db\xaml_api_db\xaml_api_db.Android\obj\Debug\90\android\assets\RestEase.dll

@@ -2,9 +2,12 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:xaml_api_db"
              mc:Ignorable="d"
              x:Class="xaml_api_db.MainPage">
+    <ContentPage.BindingContext>
+        <local:MainViewModel/>
+    </ContentPage.BindingContext>
 
     <StackLayout>
         <!-- Place new controls here -->
@@ -18,14 +21,17 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
-                <RowDefinition Height="60"/>
+                <RowDefinition Height="50"/>
             </Grid.RowDefinitions>
             <Image x:Name="imgPhoto" Grid.Row="0"/>
             <StackLayout Grid.Row="1">
                 <Button x:Name="btnPhoto" Text="Take a picture"/>
-                <Entry x:Name="tbxFirstName" Placeholder="FirstName"/>
-                <Entry x:Name="tbxLastName" Placeholder="LastName"/>
-                <Entry x:Name="tbxPhoneNumber" Placeholder="Phone Number" Keyboard="Telephone"/>
+                <Entry x:Name="tbxFirstName" Text="{Binding BFirstName}"  Placeholder="FirstName"/>
+                <Label Text="{Binding DisplayFirstName}"/>
+                <Entry x:Name="tbxLastName" Text="{Binding BLastName}" Placeholder="LastName"/>
+                <Label Text="{Binding DisplayLastName}"/>
+                <Entry x:Name="tbxPhoneNumber" Text="{Binding BPhoneNumber}" Placeholder="Phone Number" Keyboard="Telephone"/>
+                <Label Text="{Binding DisplayPhoneNumber}"/>
             </StackLayout>
             <Button x:Name="btnSave" Text="Save data" Grid.Row="2"/>
         </Grid>
