@@ -17,7 +17,7 @@ namespace WeatherApp
         {
             if (!string.IsNullOrWhiteSpace(_cityEntry.Text))
             {
-                WeatherData weatherData = await _restService.GetWeatherData(GenerateRequestUri(Constants.OpenWeatherMapEndpoint));
+                WeatherData weatherData = await _restService.GetWeatherData(GenerateRequestUri(Constants.OpenWeatherMapEndpoint+"GetWeather"));
                 BindingContext = weatherData;
             }
         }
@@ -25,9 +25,7 @@ namespace WeatherApp
         string GenerateRequestUri(string endpoint)
         {
             string requestUri = endpoint;
-            requestUri += $"?q={_cityEntry.Text}";
-            requestUri += "&units=metric";
-            requestUri += $"&APPID={Constants.OpenWeatherMapAPIKey}";
+            requestUri += $"?city={_cityEntry.Text}";
             return requestUri;
         }
     }
