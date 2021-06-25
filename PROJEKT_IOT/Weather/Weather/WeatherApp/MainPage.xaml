@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:WeatherApp"
              x:Class="WeatherApp.MainPage">
     <ContentPage.Resources>
         <ResourceDictionary>
-            <Style x:Key="labelStyle" 
+            <Style x:Key="labelStyle"
                    TargetType="Label">
-                <Setter Property="FontSize" 
+                <Setter Property="FontSize"
                         Value="Small" />
-                <Setter Property="TextColor" 
+                <Setter Property="TextColor"
                         Value="Gray" />
             </Style>
-            
-            <Style x:Key="labelResultStyle" 
+
+            <Style x:Key="labelResultStyle"
                    TargetType="Label">
-                <Setter Property="FontSize" 
+                <Setter Property="FontSize"
                         Value="Medium" />
-                <Setter Property="Margin" 
+                <Setter Property="Margin"
                         Value="10,0,0,0" />
             </Style>
-            
+
             <local:LongToDateTimeConverter x:Key="longToDateTimeConverter" />
         </ResourceDictionary>
     </ContentPage.Resources>
-    
+
     <StackLayout>
-        <Grid BackgroundColor="#545454" 
+        <Grid BackgroundColor="#545454"
               Padding="10,20,10,10">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
@@ -38,76 +39,80 @@
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="Auto" />
             </Grid.ColumnDefinitions>
-            
-            <Label Text="Szukaj miasta" 
+
+            <Label Text="Szukaj miasta"
                    Grid.ColumnSpan="3"
                    HorizontalOptions="Center"
-                   TextColor="White" 
-                   FontAttributes="Bold" 
+                   TextColor="White"
+                   FontAttributes="Bold"
                    FontSize="Medium" />
-            
-            <Label Text="Miasto :" 
-                   Grid.Row="1" 
+
+            <Label Text="Miasto :"
+                   Grid.Row="1"
                    VerticalOptions="Center"
                    Style="{StaticResource labelStyle}"
                    TextColor="#C0C0C0" />
-            
+
             <Entry x:Name="_cityEntry"
-                   Grid.Row="1" 
+                   TextChanged="OnSearchTextChanged"
+                   Grid.Row="1"
                    Grid.Column="1"
                    Margin="5,0"
                    VerticalOptions="Center"
                    BackgroundColor="DarkGray"
-                   TextColor="White"
-                   Text="Warsaw" />
-            
-            <Button Grid.Row="1" 
-                    Grid.Column="2"
-                    Text="Pobierz pogodę" 
-                    BorderWidth="1"
-                    BorderColor="White"
-                    BackgroundColor="DarkGray"
-                    TextColor="White"
-                    Clicked="OnGetWeatherButtonClicked" />
+                   TextColor="White" />
+
         </Grid>
 
-        <ScrollView>
+        <ListView x:Name="ListViewCities" ItemsSource="{Binding Path=Cities}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout>
+                            <Button Text="{Binding }" Clicked="OnGetWeatherButtonClicked" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <ScrollView x:Name="ScrollViewResult">
             <StackLayout Padding="10">
-                <Label Text="Location" 
+                <Label Text="Miasto"
                        Style="{StaticResource labelStyle}" />
-                <Label Text="{Binding City}" 
+                <Label Text="{Binding weatherData.City}"
                        Style="{StaticResource labelResultStyle}" />
 
-                <Label Text="Temperatura, °C" 
+                <Label Text="Temperatura, °C"
                        Style="{StaticResource labelStyle}" />
-                <Label Text="{Binding Temperature}" 
-                       Style="{StaticResource labelResultStyle}" />
-                
-                <Label Text="Prędkość wiatru, metry na sekundę" 
-                       Style="{StaticResource labelStyle}" />
-                <Label Text="{Binding WindSpeed}" 
-                       Style="{StaticResource labelResultStyle}" />
-                
-                <Label Text="Wilgotność powietrza, %" 
-                       Style="{StaticResource labelStyle}" />
-                <Label Text="{Binding Humidity}" 
-                       Style="{StaticResource labelResultStyle}" />
-                
-                <Label Text="Widoczność, metry" 
-                       Style="{StaticResource labelStyle}" />
-                <Label Text="{Binding Visibility}" 
-                       Style="{StaticResource labelResultStyle}" />
-                
-                <Label Text="Wschód słońca" 
-                       Style="{StaticResource labelStyle}" />
-                <Label Text="{Binding Sunrise, Converter={StaticResource longToDateTimeConverter}}" 
+                <Label Text="{Binding weatherData.Temperature}"
                        Style="{StaticResource labelResultStyle}" />
 
-                <Label Text="Zachód słońca" 
+                <Label Text="Prędkość wiatru, metry na sekunde"
                        Style="{StaticResource labelStyle}" />
-                <Label Text="{Binding Sunset, Converter={StaticResource longToDateTimeConverter}}" 
+                <Label Text="{Binding weatherData.WindSpeed}"
+                       Style="{StaticResource labelResultStyle}" />
+
+                <Label Text="Wilgotność powietrza, %"
+                       Style="{StaticResource labelStyle}" />
+                <Label Text="{Binding weatherData.Humidity}"
+                       Style="{StaticResource labelResultStyle}" />
+
+                <Label Text="Widoczność, metry"
+                       Style="{StaticResource labelStyle}" />
+                <Label Text="{Binding weatherData.Visibility}"
+                       Style="{StaticResource labelResultStyle}" />
+
+                <Label Text="Wschód słońca"
+                       Style="{StaticResource labelStyle}" />
+                <Label Text="{Binding weatherData.Sunrise, Converter={StaticResource longToDateTimeConverter}}"
+                       Style="{StaticResource labelResultStyle}" />
+
+                <Label Text="Zachód słońca"
+                       Style="{StaticResource labelStyle}" />
+                <Label Text="{Binding weatherData.Sunset, Converter={StaticResource longToDateTimeConverter}}"
                        Style="{StaticResource labelResultStyle}" />
             </StackLayout>
         </ScrollView>
-    </StackLayout>    
+    </StackLayout>
 </ContentPage>
