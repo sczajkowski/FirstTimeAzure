@@ -10,7 +10,7 @@ namespace WeatherApp
         public int? Humidity { get; set; }
         public int Visibility { get; set; }
         public int? Clouds { get; set; }
-        public int? Sunrise { get; set; }
-        public int? Sunset { get; set; }
+        public long? Sunrise { get; set; }
+        public long? Sunset { get; set; }
     }
 }

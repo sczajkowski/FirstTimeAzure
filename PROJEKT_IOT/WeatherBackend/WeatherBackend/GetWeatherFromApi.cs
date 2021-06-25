@@ -55,7 +55,7 @@ namespace WeatherBackend
                                 WindSpeed = parsedData.List[0].Wind.Speed,
                                 Visibility = parsedData.List[0].Visibility,
                                 Sunrise = parsedData.City.Sunrise,
-                                Sunset = parsedData.City.Sunrise,
+                                Sunset = parsedData.City.Sunset,
                             };
 
                             var singleWeather = _context.Weathers.FirstOrDefault(x => x.City == apiWeather.City);
